@@ -232,20 +232,20 @@
     <entry key="org.jboss.jbossts.xts11.wst.clientServiceURLPath.">/xts/client/services</entry>
     <entry key="org.jboss.jbossts.xts11.wst.participantServiceURLPath.">/xts/participant/services</entry>
 -->
-    <entry key="org.jboss.jbossts.xts11.wsc.serviceURLPath">/ServiceB/xts</entry>
-    <entry key="org.jboss.jbossts.xts11.wst.coordinatorServiceURLPath">/ServiceB/xts</entry>
-    <entry key="org.jboss.jbossts.xts11.wst.clientServiceURLPath">/ServiceB/xts</entry>
-    <entry key="org.jboss.jbossts.xts11.wst.participantServiceURLPath">/ServiceB/xts</entry>
+    <entry key="org.jboss.jbossts.xts11.wsc.serviceURLPath">/xts</entry>
+    <entry key="org.jboss.jbossts.xts11.wst.coordinatorServiceURLPath">/xts</entry>
+    <entry key="org.jboss.jbossts.xts11.wst.clientServiceURLPath">/xts</entry>
+    <entry key="org.jboss.jbossts.xts11.wst.participantServiceURLPath">/xts</entry>
 
     <!-- not sure if we need this or not... -->
-    <entry key="org.jboss.jbossts.xts11.coordinatorURL">http://localhost:8082/ServiceB/xts/ActivationService</entry>
+    <entry key="org.jboss.jbossts.xts11.coordinatorURL">http://localhost:8082/xts/ActivationService</entry>
     <entry key="org.jboss.jbossts.xts11.coordinator.scheme">http</entry>
     <entry key="org.jboss.jbossts.xts11.coordinator.address">localhost</entry>
     <entry key="org.jboss.jbossts.xts11.coordinator.port">8082</entry>
-    <entry key="org.jboss.jbossts.xts11.coordinator.path">ServiceB/xts/ActivationService</entry>
+    <entry key="org.jboss.jbossts.xts11.coordinator.path">/xts/ActivationService</entry>
 
     <!-- i think this has to be setup so that the registration URL is constructed correctly.... -->
-    <entry key="org.jboss.jbossts.xts.wsc11.serviceURLPath">/ServiceB/xts</entry>
+    <entry key="org.jboss.jbossts.xts.wsc11.serviceURLPath">/xts</entry>
 
 
 

@@ -31,13 +31,13 @@
 	<!-- internal soap services -->
 	<servlet-mapping>
 		<servlet-name>CXFServlet</servlet-name>
-		<url-pattern>/ServiceB/ws/*</url-pattern>
+		<url-pattern>/ws/*</url-pattern>
 	</servlet-mapping>
 
 	<!-- ws-at soap endpoints. configured in xts-properties.xml -->
 	<servlet-mapping>
 		<servlet-name>CXFServlet</servlet-name>
-		<url-pattern>/ServiceB/xts/*</url-pattern>
+		<url-pattern>/xts/*</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
@@ -47,7 +47,7 @@
 
 	<servlet-mapping>
 		<servlet-name>User Servlet</servlet-name>
-		<url-pattern>/ServiceB/user</url-pattern>
+		<url-pattern>/user</url-pattern>
 	</servlet-mapping>
 
 </web-app>

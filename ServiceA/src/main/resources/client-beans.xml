@@ -7,7 +7,7 @@
 
 	<bean id="userFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
 		<property name="serviceClass" value="com.test.user.service.UserService" />
-		<property name="address" value="http://localhost:8081/ServiceA/ws/user" />
+		<property name="address" value="http://localhost:8081/ws/user" />
 	</bean>
 
 </beans>
